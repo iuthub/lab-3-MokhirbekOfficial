@@ -1,0 +1,67 @@
+
+
+*,
+*::after,
+*::before{
+	box-sizing: border-box;
+}
+body{
+	background-image: url(images/pattern-web-1.jpg);
+}
+
+.container{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #E8FBFB;
+	padding: 15px;
+	background-color: white;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { 
+	display: inline-block; 
+}
+.header{
+	text-align: right;
+	background-color: #A7EFEF;
+	margin-right: 5px;
+}
+
+.main-content {
+	margin-top: 10px;
+}
+
+.wrapper{
+	float: right;
+	width: 68%;
+}
+.sec-1{
+	border: 3px solid #C2E9E9;
+	background-color: #E7FAFA;
+	padding: 5px;
+}
+.sec-2{
+	border: 3px solid #009097;
+	padding: 10px;
+	display: inline-block;
+	background-color: #99E0E0;
+	float: right;
+	width: 30%;
+	margin-right: 22px;
+}
+.my_favorite{
+	margin-top: 10px;
+}
+img{
+	float: right;
+}
+.date{
+	border-bottom: 2px dashed #009097;
+}
